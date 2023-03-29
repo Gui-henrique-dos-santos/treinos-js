@@ -1,0 +1,117 @@
+.img {
+    background-size: cover;
+}
+
+.idmsg{
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+    margin: auto;     
+    float: right;
+    color: #000000;
+}
+
+.banner-login {
+    margin-top: 4.5%;
+    margin-left: 40%;
+    height: 700px;
+    background-size: cover;
+}
+
+.banner-login .container {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-login .card {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 80%;
+    float: right;
+    background-color: whitesmoke;
+    margin-right: 5%;
+    width: 60vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+table {
+    float:left; 
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;   
+}
+
+.scroll{
+    overflow-y: scroll;
+}
+
+input {
+    text-transform: uppercase;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    overflow: hidden;
+    background: no-repeat;
+}
+
+.fundo_branco{
+    text-align: center;
+    width: 15px;
+}
+
+.fundo_branco_1{
+    background-color: lightgray;
+}
+
+.fundo_preto{
+    width: 15px;
+    background-color: rgb(255, 255, 255); 
+    display: none;
+}
+
+.caixa {
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    right: 22%;
+}
+
+button {
+    background: maroon ;  
+    color: rgb(255, 255, 255);   
+    border-style: outset;
+    border-width: 5px;
+    border-color: #ebca12; 
+    height: 50px;  
+    width: 100px;   
+    cursor: pointer;
+    align-self: center;
+    }
